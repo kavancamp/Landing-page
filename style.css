@@ -48,3 +48,9 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.quote{
+    height: 80px;
+    background-color: #E5E7EB;
+    font-style: 36px light italic #1F2937;
+}
