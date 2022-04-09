@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="container">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +9,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+
     <header>
         <nav id="navbar">
             <div class="logo">
                 <p>Header Logo</p>
             </div>
-            <ul class="navbar justify-content-right">
-                <li class="nav-item"> 
+            <div class="links">
                 <a href="#">Header Link one</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Header Link two</a>
-                </li>
-                <li class="nav-item">
+                <a href="#">Header Link two</a>
                 <a href="#">Header link three</a> 
-                </li>
+               </div>
             </ul>        
         </nav> 
     </header> 
     <div class="box1">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <h1>This website is awesome! </h1>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing el</h3>
             <button type="button">Sign Up</button>
        </div>
-            <div class="col-lg-6">
-                <img src="placeholder.jpg" id="placeholder">
-            </div>
+        <div class="col-lg-4">
+            <img src="placeholder.jpg" id="placeholder">
+        </div>
     </div> 
 
     <div class="box2">
@@ -55,7 +51,9 @@
     </div>
     <div class="box4">
         <div class="buttonbox">
-
+            <p class="col-lg-6">Call to action! It's Time!</p>
+            
+            <button type="button" class="btn btn col-lg-6">Sign Up </button> 
         </div>
     </div>
 </body>
