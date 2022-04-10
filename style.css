@@ -9,7 +9,7 @@ header, footer{
     color: #F9FAF8;
    
 }
-nav, .box1{
+nav, .box1, footer{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,7 +90,6 @@ body{
 }
 footer{
     height: 80px;
-    align-items: center;
     
 }
 
