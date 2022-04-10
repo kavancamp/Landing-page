@@ -1,39 +1,39 @@
 .container {
     display: flex;
     flex-direction: column;
-    
 }
-#navbar{
-    font-size: 24px;
-    font-family: #F9FAF8;
-    justify-content: space-between;
-    height: 40px;
-    font-family: #E5E7EB;
-}
-
-#navbar a{
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    margin-left: 15px;
-}
-ul{
-    list-style-type: none;
-    
-}
-
 /* shared */
-#navbar, header, .box1, footer{
+.navbar, .box1, footer{
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    padding-bottom: 20px;
+    padding: 0 35px; 
+    color: #F9FAF8;
+}
+.navbar{
+    justify-content: space-between;
     align-items: center;
+    height: 60px;
+    
+   
+}
+.box1{
+ 
+}
+.logo{
+    font-size: 24px;
+}
+a{
+    margin-left: 15px;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .boxes {
+    padding: 0 35px; 
     height: 200px;
-    
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,11 +51,13 @@ ul{
     background-color: #E5E7EB;
     font-style: 36px light italic #1F2937;  
     height: 200px;
+    padding: 0 35px; 
 }
 .box4 {
     display: flex;
     justify-content: center;
     height: 200px;
+    padding: 0 35px; 
 }
 
 .buttonbox {
@@ -63,8 +65,14 @@ ul{
     height: 100px;
     width: 80%;
     margin: 50px;
+    
 }
-
+.btn {
+    background-color: #3882F6;
+    color: #fff;
+    border: 1px solid #fff;
+}
 footer{
     height: 80px;
+    
 }
